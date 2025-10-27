@@ -1,0 +1,33 @@
+# --- Core Python & Data Handling ---
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.12.0
+
+# --- Machine Learning & Optimization ---
+scikit-learn>=1.4.0
+imbalanced-learn>=0.12.0   # SMOTE
+torch>=2.2.0               # Para la red BPNN
+tqdm>=4.66.0               # Barras de progreso
+
+# --- Visualization ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# --- File Formats & Utilities ---
+pyreadstat>=1.2.5          # Para leer archivos .dta (Stata)
+joblib>=1.3.2              # Para guardar modelos o resultados
+openpyxl>=3.1.2            # Si exportas a Excel
+pyarrow>=15.0.0            # Para checkpoints en Parquet
+
+# --- Logging, Timing & Misc ---
+colorama>=0.4.6
+psutil>=5.9.8
+
+# --- Reproducibility & Experiments ---
+jsonschema>=4.20.0
+tabulate>=0.9.0
+
+# --- Optional (si incluiste visual dashboards o notebooks) ---
+notebook>=7.1.0
+jupyterlab>=4.1.0

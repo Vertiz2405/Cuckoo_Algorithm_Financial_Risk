@@ -1,0 +1,33 @@
+{
+  "Dataset": {
+    "Total observaciones": 9835,
+    "Features originales": 96,
+    "Features seleccionadas": 43,
+    "% features usadas": "47.3%",
+    "Train size": 8022,
+    "Validation size": 984,
+    "Test size": 1967,
+    "Balance train (% riesgo)": "50.0%",
+    "Balance test (% riesgo)": "32.4%"
+  },
+  "Hiperpar\u00e1metros BPNN": {
+    "hidden": 126,
+    "lr": 0.046661600240855465,
+    "wd": 5.8054558564762704e-05,
+    "dropout": 0.43766396014696224,
+    "epochs": 19
+  },
+  "Hiperpar\u00e1metros CSA": {
+    "Epochs": 500,
+    "Population size": 25,
+    "p_a (abandono)": 0.25
+  },
+  "Preprocesamiento": {
+    "Normalizaci\u00f3n": "MinMaxScaler",
+    "Hardware": {
+      "Device": "cpu",
+      "PyTorch version": "2.4.1",
+      "Numpy version": "1.26.0"
+    }
+  }
+}
